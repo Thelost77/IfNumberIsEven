@@ -27,10 +27,11 @@ namespace IfNumberIsEven
         {
             Console.WriteLine("\nCześć, podaj mi liczbę całkowitą, a sprawdzę czy jest parzysta.\n");
             if (GetNumber() % 2 == 0)
-            {
+            
                 Console.WriteLine("\nTwoja liczba jest parzysta!\n");
-            }
+            
             else
+
             Console.WriteLine("\nTwoja liczba jest nieparzysta.\n");
         }
     }
